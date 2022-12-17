@@ -27,7 +27,6 @@ app.get("/api/whoami", function(req, res) {
     "software": req.headers["user-agent"]
   });
 });
-
 app.listen(port, function() {
   console.log(`Listening on port ${port}`);
 });
